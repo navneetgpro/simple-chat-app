@@ -16,7 +16,7 @@ const ChatBar = ({ socket }) => {
         <div className="chat__users">
           {users.length?users.map((user) => (
             <p key={user.socketID}>{user.userName}</p>
-          )):'No avtive user'}
+          )):'No active user'}
         </div>
       </div>
     </div>
